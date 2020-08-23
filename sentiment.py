@@ -7,7 +7,7 @@ from newspaper import Article
 url='https://nmit.ac.in'
 article=Article(url)
 
-#do some proceesing
+#do some processing
 article.download()
 article.parse()
 nltk.download('punkt')
